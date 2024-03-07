@@ -12,6 +12,7 @@ elButton.addEventListener('click', function(){
     let km = parseFloat(elUserKm.value);
     let age = elUserAge.value;
 
+    if (!(datas==='') && !isNaN(km) && !(age==='')) {
     elTicket.classList.remove('d-none');
     document.getElementById('name').innerHTML = datas;
     document.getElementById('discount').innerHTML = 'Biglietto Standard';
@@ -29,4 +30,7 @@ elButton.addEventListener('click', function(){
     document.getElementById('carriage').innerHTML = getRndInteger(1,12);
     document.getElementById('code').innerHTML = getRndInteger(10000,99999);
     document.getElementById('price').innerHTML = price + '€';
+} else {
+    alert('Dati inseriti non corretti!')
+}
 });
