@@ -4,7 +4,7 @@ let elUserAge = document.getElementById('userAge');
 const priceKm = 0.21;
 const juniorDiscount = 20 / 100;
 const overDiscount = 40 / 100;
-let elButton = document.querySelector('.btn.btn-primary');
+let elButton = document.querySelector('.btn.btn-danger');
 
 elButton.addEventListener('click', function(){
     let datas = elUserDatas.value;

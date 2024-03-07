@@ -1,0 +1,24 @@
+/* general */
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+/* main */
+main {
+    height: 100vh;
+    background-image: url('https://www.lefrecce.it/Channels.Website.WEB/423cbbe76686f33e3807259790052e67.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main section:first-child {
+    padding: 110px 0 80px 0;
+}
+main section:first-child div.container {
+    max-width: 800px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
